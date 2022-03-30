@@ -1,5 +1,8 @@
+//Declarar a funcao
 function generation(x, y) {
+	// Usar um condicional para determinar a resposta em funcao do genero
 	if (y=="f"){
+	// Com um switch case estabelecemos os retornos esperados para cada numero. 	
 	switch (x){
 	case 3:
 	return "great granddaughter";
@@ -16,7 +19,9 @@ function generation(x, y) {
 	return "great grandmother";
 		}
 	}
-	else if (y=="m"){
+         // Podemos usar um else if porem ja que temos duas condicoes, usamos só um esse a pesar de esperar um "m". 	
+
+	else {
 		
 	switch (x){
 	case 3:

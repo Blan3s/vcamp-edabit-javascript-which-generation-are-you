@@ -1,10 +1,15 @@
-function generation(x, y) {
+	
+// Declaramos uma funcao que receba dois parametros
+
+	function generation(x, y) {
+// Declaramos os retornos esperados em funcao de genero e numero recebido com um switch case.
 	if (y=="f"){
-	switch (x){
+		switch (x){
 	case 3:
 	return "great granddaughter";
 	case 2:
 	return "granddaughter";
+	case 1:
 	return "daughter";
 	case 0:
 	return "me!";
@@ -16,9 +21,9 @@ function generation(x, y) {
 	return "great grandmother";
 		}
 	}
-	else if (y=="m"){
-
-	switch (x){
+		else if (y=="m"){
+		
+		switch (x){
 	case 3:
 	return "great grandson";
 	case 2:
@@ -34,5 +39,7 @@ function generation(x, y) {
 	case -3:
 	return "great grandfather";
 		}
-	}
+  	}
 }
+
+
